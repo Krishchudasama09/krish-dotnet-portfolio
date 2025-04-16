@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Krish Chudasama - Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #fdfbfb, #ebedee);
+        color: #333;
+      }
+      .header {
+        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        color: white;
+        padding: 60px 0;
+        text-align: center;
+      }
+      .header img {
+        border-radius: 50%;
+        width: 160px;
+        height: 160px;
+        border: 4px solid white;
+      }
+      .section-title {
+        margin-top: 40px;
+        margin-bottom: 25px;
+        border-bottom: 3px solid #0d6efd;
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #0d6efd;
+      }
+      .card {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        border: none;
+        border-radius: 12px;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      }
+      .social-icons a {
+        margin: 0 15px;
+        color: #0d6efd;
+        font-size: 1.8rem;
+        transition: color 0.3s;
+      }
+      .social-icons a:hover {
+        color: #0056b3;
+      }
+      .btn-primary {
+        background-color: #0d6efd;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 25px;
+      }
+      footer {
+        background: #0d6efd;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <!-- Replace with actual relative/hosted path -->
+      <img src="C:\Users\krish\Pictures\krish123.jpg" alt="Krish Chudasama">
+      <h1 class="mt-3">Krish Chudasama</h1>
+      <p>Fresher .NET Developer | Passionate about building scalable & efficient applications</p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Krish's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="about" class="container mt-5">
+      <div class="section-title">About Me</div>
+      <p>I am a self-motivated and enthusiastic fresher aiming to grow as a .NET Developer, with a strong foundation in software development, problem-solving, and database management. Proficient in C#, ASP.NET Core, HTML, CSS, and Git, I am passionate about building efficient, scalable, and user-friendly applications.</p>
+      <p>I completed my Diploma in Information Technology from Government Polytechnic, Rajkot, where I gained hands-on experience in web development, backend technologies, and mobile app development.</p>
+    </div>
+
+    <div id="skills" class="container mt-5">
+      <div class="section-title">Skills</div>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Frontend</h5>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+          
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h5>Backend</h5>
+          <ul>
+            <li>Python</li>
+            <li>Basics of C#</li>
+            <li>Basics of Java</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" class="container mt-5">
+      <div class="section-title">Projects</div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card p-3 mb-4">
+            <h5>Study Material App</h5>
+            <p>A mobile app using Kotlin & Flutter to help students with learning resources.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-3 mb-4">
+            <h5>Jarvis AI</h5>
+            <p>An AI virtual assistant created in Python for automating tasks and interactions.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-3 mb-4">
+            <h5>Google Translator App</h5>
+            <p>Created using Python and Tkinter to translate text between languages in a user-friendly GUI.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-3 mb-4">
+            <h5>Food Delivery Web App</h5>
+            <p>Designed using HTML and CSS, this app simulates a food ordering experience with modern UI elements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="container mt-5">
+      <div class="section-title">Contact</div>
+      <p><strong>📞 Phone:</strong> +91 9327795390</p>
+      <p><strong>📧 Email:</strong> <a href="mailto:krish.dev1606@gmail.com">krish.dev1606@gmail.com</a></p>
+
+      <form class="mt-4 p-4 rounded shadow" style="background-color: #f8f9fa;">
+        <div class="mb-3">
+          <label class="form-label">Your Name</label>
+          <input type="text" class="form-control" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Your Email</label>
+          <input type="email" class="form-control" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Your Message</label>
+          <textarea class="form-control" rows="4" placeholder="Write your message here..."></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary px-5">Send Message</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="text-center mt-5 social-icons">
+      <a href="https://www.linkedin.com/in/krish-chudasama-953232306"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/krishchudasama09"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/thekrishh16"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <footer class="text-center py-4 mt-5">
+      <p>&copy; 2025 Krish Chudasama | All rights reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
